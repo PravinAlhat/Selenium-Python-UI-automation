@@ -11,7 +11,7 @@ class PracticePaPgeTest(unittest.TestCase):
     def object_setup(self, OneTimeSetup):
         self.cb = CheckBox(self.driver)
 
-    def test_selectradiobutton(self):
+    def test_checkbox(self):
         self.cb.select_check_box('bmw')
         self.cb.select_check_box('benz')
         self.cb.select_check_box('honda')
