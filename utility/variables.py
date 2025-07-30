@@ -5,3 +5,7 @@ class Variables():
     practice_menu = "//a[contains(text(),'PRACTICE')]"
     elementpractice_submenu = "//a[contains(text(),'Element Practice')]"
     PRACTICE_PAGE = "//h1[text()='Practice Page']"
+    bmw_radio_button = "//input[@id='bmwradio']"
+    benz_radio_button = "//input[@id='benzradio']"
+    honda_radio_button = "//input[@id='hondaradio']"
+    radio_button = "//input[@type='radio' and @value='car']"
