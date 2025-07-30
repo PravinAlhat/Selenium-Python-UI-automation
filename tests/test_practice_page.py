@@ -1,6 +1,5 @@
 from base.SeleniumDriver import SeleniumDriver
 from page.practice import PracticePage
-import conftest
 import pytest
 import unittest
 from utility.variables import Variables
