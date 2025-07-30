@@ -1,0 +1,6 @@
+07/30/202502:02:34 PM-SeleniumDriver-INFO:Element is found with //input[@type='checkbox' and @value='bmw'] and xpath
+07/30/202502:02:34 PM-SeleniumDriver-INFO:Element: <selenium.webdriver.remote.webelement.WebElement (session="a146450fe5faa825bc2fe5848d5c0145", element="f.8BEBC7ED1ECD9FA48A7DECFF1503AF69.d.0754ED1B957A8384DFC49BBFFEE590ED.e.27")> is clicked.
+07/30/202502:02:34 PM-SeleniumDriver-INFO:Element is found with //input[@type='checkbox' and @value='benz'] and xpath
+07/30/202502:02:34 PM-SeleniumDriver-INFO:Element: <selenium.webdriver.remote.webelement.WebElement (session="a146450fe5faa825bc2fe5848d5c0145", element="f.8BEBC7ED1ECD9FA48A7DECFF1503AF69.d.0754ED1B957A8384DFC49BBFFEE590ED.e.28")> is clicked.
+07/30/202502:02:34 PM-SeleniumDriver-INFO:Element is found with //input[@type='checkbox' and @value='honda'] and xpath
+07/30/202502:02:34 PM-SeleniumDriver-INFO:Element: <selenium.webdriver.remote.webelement.WebElement (session="a146450fe5faa825bc2fe5848d5c0145", element="f.8BEBC7ED1ECD9FA48A7DECFF1503AF69.d.0754ED1B957A8384DFC49BBFFEE590ED.e.29")> is clicked.

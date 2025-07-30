@@ -9,3 +9,4 @@ class Variables():
     benz_radio_button = "//input[@id='benzradio']"
     honda_radio_button = "//input[@id='hondaradio']"
     radio_button = "//input[@type='radio' and @value='car']"
+    check_box = "//input[@type='checkbox' and @value='car']"
