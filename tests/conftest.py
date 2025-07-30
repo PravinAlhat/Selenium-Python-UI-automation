@@ -3,7 +3,7 @@ from selenium import webdriver
 from utility import webdirverfactory as wd
 import time
 
-@pytest.yield_fixture(scope="class")
+@pytest.fixture(scope="class")
 def OneTimeSetup(request, browser, url):
     print(browser)
     print(url)
