@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 from utility.logger import custom_logger as cl
 import logging
+from selenium.webdriver.support.select import Select
 
 
 class SeleniumDriver():
@@ -91,6 +92,21 @@ class SeleniumDriver():
             self.log.error(f"Element is not found with {locator} and {locatorType}")
             raise TimeoutError
         return element
+    
+    def select_radio_button(self, locator, locatorType, value=None, index=None, text=None):
+        try:
+            element = self.wait_for_element(locator, locatorType)
+            select = Select(element)
+            if value:
+                select.select_by_value(value)
+            elif id:
+                select.select_by_index(index)
+            else:
+                select.select_by_visible_text(text)
+        except:
+            self.log.error(f"Keys are not sent for an element with {locator} and {locatorType}")
+            
+
         
 
     
