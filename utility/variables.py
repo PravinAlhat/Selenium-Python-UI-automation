@@ -10,3 +10,7 @@ class Variables():
     honda_radio_button = "//input[@id='hondaradio']"
     radio_button = "//input[@type='radio' and @value='car']"
     check_box = "//input[@type='checkbox' and @value='car']"
+    select_dropdown= "//select[@id='carselect']"
+    open_window_btn_xpath = "//button[@id='openwindow' and text()='Open Window']"
+    open_tab_btn_xpath = "//a[@id='opentab' and text()='Open Tab']"
+    test_data_excel_path = 'utility\\test_data.xlsx'

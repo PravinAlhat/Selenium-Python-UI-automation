@@ -105,7 +105,25 @@ class SeleniumDriver():
                 select.select_by_visible_text(text)
         except:
             self.log.error(f"Keys are not sent for an element with {locator} and {locatorType}")
-            
+
+    def select_from_dropdown(self, locator, locatorType, value=None, index=None, text=None):
+        try:
+            element = self.wait_for_element(locator, locatorType)
+            select = Select(element)
+            if value:
+                select.select_by_value(value)
+            elif index:
+                select.select_by_index(index)
+            else:
+                select.select_by_visible_text(text)
+        except:
+            if value:
+                self.log.error(f"Car: {value} is not selected")         
+            elif index:
+                self.log.error(f"Car: {index} is not selected")
+            else:
+                self.log.error(f"Car: {text} is not selected")
+               
 
         
 
